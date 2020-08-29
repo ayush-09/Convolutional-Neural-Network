@@ -11,9 +11,9 @@ In this repository, you seen the deep learning convolutional neural network mode
 # Building The DCNN
   > Convolutional Neural Network
 # Compiling The Model
-* The optimizer: the > Adam gradient-based optimizer.
-* The loss function. Since I'll using a > Softmax output layer, I’ll use the > Cross-Entropy loss. Keras distinguishes between binary_crossentropy (2 classes) and categorical_crossentropy (>2 classes).
-* A list of metrics. Since this is a classification problem, we’ll just have Keras report on the > accuracy metric.
+* The optimizer: the **Adam gradient-based optimizer.**
+* The loss function. Since I'll using a -Softmax output layer, I’ll use the **Cross-Entropy loss**. Keras distinguishes between binary_crossentropy (2 classes) and categorical_crossentropy (>2 classes).
+* A list of metrics. Since this is a classification problem, we’ll just have Keras report on the -accuracy metric.
 # Training The Model
 1. The training data (inpurts and labels), commonly known as X and Y, respectively.
 2. The number of epochs (iterations over the entire dataset) to train for.
